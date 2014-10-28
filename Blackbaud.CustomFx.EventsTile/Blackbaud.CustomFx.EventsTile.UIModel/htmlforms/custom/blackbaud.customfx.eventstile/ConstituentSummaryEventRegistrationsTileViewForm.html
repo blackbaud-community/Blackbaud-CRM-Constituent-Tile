@@ -1,0 +1,81 @@
+﻿<style type="text/css">
+    .#MAP#BOLD
+    {
+        font-weight: bold;
+    }
+    ##MAP#ConstituentSummaryEventRegistrationsTileViewForm .tiletext
+    {
+        color: #73ab60;
+        font-size: 12px;
+        font-weight: bold;
+        padding-right: 3px;
+    }
+    ##MAP#DATATABLE td
+    {
+        padding-top: 0px;
+        padding-bottom: 2px;
+        padding-right: 15px;
+    }
+    ##MAP#NEXTREGISTRATION_action
+    {
+        padding-right: 0px;
+    }
+    ##MAP#EVENTNAME_action
+    {
+        color: #195169;
+        font-weight: bold;
+        padding-right: 7px;
+    }
+</style>
+<div id="#MAP#ConstituentSummaryEventRegistrationsTileViewForm">
+    <div class="'bbui-forms-fieldset-row">
+        <div id="#MAP#HEADERLINK_container" class="bbui-forms-fieldset-column TITLEHEADERLINKCONTAINER">
+            <a id="#MAP#HEADERLINK_action" class="#MAP#BOLD"></a>
+        </div>
+        <div style="float: left; margin-left: 20px;">
+            <div id="#MAP#REGISTRATIONCOUNTTEXT_value" class="bbui-forms-fieldset-column TILERECORDCOUNTTEXTCONTAINER">
+            </div>
+            <div class="bbui-forms-fieldset-column TILEPAGINGARROWCONTAINER">
+                <a id="#MAP#PREVIOUSREGISTRATION_action" class="TILEPAGINGLEFTARROW">&nbsp;</a>
+            </div>
+            <div class="bbui-forms-fieldset-column TILEPAGINGARROWCONTAINER">
+                <a id="#MAP#NEXTREGISTRATION_action" class="TILEPAGINGRIGHTARROW">&nbsp;</a>
+            </div>
+        </div>
+    </div>
+    <div class="bbui-forms-fieldset-row">
+        <table id="#MAP#DATATABLE">
+            <tr>
+                <td colspan="2">
+                    <a id="#MAP#EVENTNAME_action"></a>
+                    <span id="#MAP#STARTDATE_value" class="tiletext"></span>
+                </td>
+            </tr>
+            <tr id="#MAP#REGISTRATION_container">
+                <td colspan="2">
+                    <span id="#MAP#REGISTRATION_caption" class="label"></span>
+                    <span id="#MAP#REGISTRATION_value" class="tiletext"></span>
+                </td>
+            </tr>
+            <tr id="#MAP#TYPE_container">
+                <td colspan="2">
+                    <span id="#MAP#TYPE_caption" class="label"></span>
+                    <span id="#MAP#TYPE_value" class="tiletext"></span>
+                </td>
+            </tr>
+            <tr id="#MAP#STATUS_container">
+                <td colspan="2">
+                    <span id="#MAP#STATUS_caption" class="label"></span>
+                    <span id="#MAP#STATUS_value" class="tiletext"></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <span id="#MAP#NOREGISTRATIONS_caption" class="bbui-nocolon label"></span>
+</div>
+<!-- To define fields in multiple columns on the form, simply add/move the fields to this div
+        <div class="bbui-forms-fieldset-column">
+            <table>
+            </table>
+        </div>
+        -->

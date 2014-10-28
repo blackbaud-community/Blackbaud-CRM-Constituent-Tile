@@ -1,0 +1,10 @@
+﻿<UIModelWizardMetadata>
+  <SpecFileName>ConstituentSummaryEventRegistrationsTile.View.xml</SpecFileName>
+  <Namespace></Namespace>
+  <ClassName>ConstituentSummaryEventRegistrationsTileViewFormUIModel</ClassName>
+  <HtmlInfo GenerateHtml="true">
+    <HtmlFile>ConstituentSummaryEventRegistrationsTileViewForm.html</HtmlFile>
+    <HtmlFolder>htmlforms\custom\blackbaud.customfx.eventstile\</HtmlFolder>
+  </HtmlInfo>
+  <GenerateFromDatabase>true</GenerateFromDatabase>
+</UIModelWizardMetadata>
