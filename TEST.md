@@ -12,18 +12,10 @@ This code sample along with [step by step instructions](https://www.blackbaud.co
 
 Before you build this UI Model project, be sure to complete the following:
 
-
-
-1. You will need a developer instance of Blackbaud CRM version 4.0 installed or higher. (4.0 is the latest at the time of writing this sample)
-2. You will need the Blackbaud CRM SDK 4.0 installed.
-3. If you have more than one version of the SDK installed, you will need to run the SetCurrentSDK.bat file located within your local 4.0 version SDK folder.  See our instructions for [setting up a developer environment](https://www.blackbaud.com/files/support/guides/infinitydevguide/infsdk-developer-help.htm#../Subsystems/infintro-developer-help/Content/coBlackbaudCRMSDKDevEnvSetup.htm%3FTocPath%3DGet%20Started%7C_____6) for more details.
-4. Within the Blackbaud.CustomFx.EventsTile.Catalog project, update the build output location to reflect your local environment. 
+1. You will need a developer instance of Blackbaud CRM version 4.0 installed or higher. (4.0 is the latest at the time of writing this sample).  You will need the Blackbaud CRM SDK 4.0 installed.  If you have more than one version of the SDK installed, you will need to run the SetCurrentSDK.bat file located within your local 4.0 version SDK folder.  See our instructions for [setting up a developer environment](https://www.blackbaud.com/files/support/guides/infinitydevguide/infsdk-developer-help.htm#../Subsystems/infintro-developer-help/Content/coBlackbaudCRMSDKDevEnvSetup.htm%3FTocPath%3DGet%20Started%7C_____6) for more details.
+4. Within the Blackbaud.CustomFx.EventsTile.UIModel project, update the build output location to reflect your local environment. 
  - In Visual Studio, right-click the Blackbaud.CustomFx.EventsTile.UIModel project and select Properties. Then on the Compile tab, click Browse in the Build output path field and select the \bbappfx\vroot\bin\custom folder in your installation directory. 
- - Update the xcopy path in the postbuild.bat file. 
-
-
-2. Within the In the Blackbaud.CustomFx.EventsTile.UIModel project
- - Open the postbuild.bat. In the second line of the .bat file, update the path in the xcopy command to reflect the \bbappfx\vroot\bin\htmlforms folder in your installation directory.
+ - Update the xcopy path in the visual studio project's postbuild.bat file to reflect the \bbappfx\vroot\bin\htmlforms folder in your installation directory.
 
 ##Resources##
 * See the [Blackbaud CRM Read Me](https://github.com/blackbaud-community/Blackbaud-CRM/blob/master/README.md). 
