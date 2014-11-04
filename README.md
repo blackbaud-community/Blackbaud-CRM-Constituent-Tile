@@ -8,12 +8,12 @@ This example will teach you the basisc of building a custom tile to display in t
 
 This code sample includes a Visual Studio solution with a catalog project and a UI Model project. The catalog project includes a view data form spec to display event registration information in  a custom tile. The UI Model project includes the UI Model that implements the tile interface for the view data form. The code sample also includes a SQL statement to insert a row for the view data form in the CONSTITUENTSUMMARYAVAILABLETILE table. 
 
-## Resources
-See the [Blackbaud CRM Read Me](https://github.com/blackbaud-community/Blackbaud-CRM/blob/master/README.md). 
+##Resources##
+* See the [Blackbaud CRM Read Me](https://github.com/blackbaud-community/Blackbaud-CRM/blob/master/README.md). 
 
-[Step by Step Instructions](https://www.blackbaud.com/files/support/guides/infinitydevguide/infsdk-developer-help.htm#../Subsystems/data-forms/Content/data-forms/ view-data-forms-tiles-sample.htm)
+* [Step by Step Instructions](https://www.blackbaud.com/files/support/guides/infinitydevguide/infsdk-developer-help.htm#../Subsystems/data-forms/Content/data-forms/ view-data-forms-tiles-sample.htm)
 
- [Data Forms](https://www.blackbaud.com/files/support/guides/infinitydevguide/infsdk-developer-help.htm#../Subsystems/data-forms/Content/data-forms/welcome-data-forms.htm) Chapter within Developer Guides
+* [Data Forms](https://www.blackbaud.com/files/support/guides/infinitydevguide/infsdk-developer-help.htm#../Subsystems/data-forms/Content/data-forms/welcome-data-forms.htm) Chapter within Developer Guides
 
 
 ##Contributing##
