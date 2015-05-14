@@ -7,7 +7,7 @@ Starting in Blackbaud CRM 4.0, the constituent summary on the Constituent page  
 
 ## What You Will Build ##
 
-This code sample and its [step by step instructions](https://www.blackbaud.com/files/support/guides/infinitydevguide/infsdk-developer-help.htm#../Subsystems/data-forms/Content/data-forms/ view-data-forms-tiles-sample.htm) teach you the basics of how to build a custom tile to display in the Constituent page summary. 
+This code sample and its [step by step instructions](https://www.blackbaud.com/files/support/guides/infinitydevguide/infsdk-developer-help.htm#../Subsystems/data-forms/Content/data-forms/view-data-forms-tiles-sample.htm) teach you the basics of how to build a custom tile to display in the Constituent page summary. 
 You can use the code sample to create a tile that displays event registration information in the constituent summary.
 
 ![](https://github.com/blackbaud-community/Blackbaud-CRM/blob/gh-pages/images/ConstituentTileEvents.png)
